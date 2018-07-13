@@ -1,0 +1,57 @@
+package com.worksheet_answers;
+
+public class FindPassword {
+	int stable[]=new int[10],x=0;
+	int unstable[]=new int[10],y=0;
+	int a[]=new int [10],password=0;
+	public int findPassword(int a1,int a2,int a3,int a4,int a5) {
+		int b[]= {a1,a2,a3,a4,a5};
+		for(int i=0;i<5;i++)
+		{
+		int num=b[i],freq=0;
+		int c[]=new int[10],d=0,z=0;
+		for(int j=num;j!=0;j/=10) {
+			int e=j%10;
+			c[d]=e;
+			d++;
+		}
+		for(int k=0;k<=9;k++)
+		{
+			for(int l=0;l<c.length;l++)
+			{
+				if(c[l]==k)
+				{
+					freq++;
+				}
+			}
+			if(freq>0) {
+				a[z]=freq;
+			}
+				freq=0;
+				z++;
+		
+		}
+			if(a[0]== a[1]&&a[1]==a[2]&&a[2]==a[3])
+			{
+				stable[x]=num;
+				x++;
+			}
+			else
+			{
+				unstable[y]=num;
+				y++;
+			}
+		
+		}
+		for(int i=0;i<unstable.length;i++)
+		{
+			password=password+unstable[i];
+		}
+		return password;
+		}
+	public static void main(String args[]) {
+		FindPassword a1=new FindPassword();
+		int result=a1.findPassword(12, 1313, 122, 678, 898);
+		System.out.println(result);
+	}
+}

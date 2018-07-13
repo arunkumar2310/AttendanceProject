@@ -1,0 +1,10 @@
+package com.polymorphism;
+
+
+class A 
+	{
+	int width;
+	int height;
+	int length;
+	} 
+	

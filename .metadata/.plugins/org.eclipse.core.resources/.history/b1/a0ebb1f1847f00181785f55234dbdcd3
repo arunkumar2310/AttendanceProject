@@ -1,0 +1,50 @@
+package com.prp;
+import java.util.Scanner;
+
+public class StringCode {
+	public static String findStringCode(String input) {
+		String output1="";
+		String a[]=input.split(" ");
+		int output[]=new int[a.length];
+		for(int i=0;i<a.length;i++) {
+			char b[]=a[i].toCharArray();
+			if(b.length%2==0) {
+				int sum=0;
+				for(int j=0;j<b.length/2;j++) {
+				int m=(int)b[j];
+				int n=(int)b[b.length-1-j];
+				int e=Math.abs(m-n);
+				    sum=sum+e;
+				    output1=output1+sum+"";
+				}
+			}
+			else {
+				int sum=0;
+				for(int j=0;j<b.length/2+1;j++) {
+					int e=0;
+					if(j==b.length/2+1) {
+						 e=(int)b[b.length/2+1];
+					}
+					else {
+						int m=(int)b[j];
+						int n=(int)b[b.length-1-j];
+						 e=Math.abs(m-n);
+					}
+				    sum=sum+e;
+				    output1=output1+sum+"";
+				}
+					
+			}
+				
+			}
+		
+		return output1;
+	}
+	public static void main(String args[]) {
+	Scanner scan=new Scanner(System.in);
+	String input1=scan.nextLine();
+	StringCode obj=new StringCode();
+	String a=obj.findStringCode(input1);
+	System.out.println(a);
+	}
+}

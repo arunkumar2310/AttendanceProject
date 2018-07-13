@@ -1,0 +1,12 @@
+package com.polymorphism;
+
+
+class Output 
+{
+public static void main(String args[])
+{
+A obj1 = new A();
+System.out.print(obj1.toString());
+}
+}
+

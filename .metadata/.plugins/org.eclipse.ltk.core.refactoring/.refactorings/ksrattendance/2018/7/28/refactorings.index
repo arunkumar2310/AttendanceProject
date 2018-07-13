@@ -1,0 +1,4 @@
+1531355152354	Rename type 'IETshowAttendanceDetails'
+1531389622221	Move 'confirmattendance.jsp' to 'WEB-INF'
+1531389628720	Move 'confirmattendance.jsp' to 'WebContent'
+1531389633420	Move 'details.jsp' to 'WebContent'

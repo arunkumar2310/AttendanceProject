@@ -1,0 +1,18 @@
+package com.student;
+
+public class MyDetails {
+	
+	public static void main(String args[])
+	{
+		Details student=new Details();
+		student.setFirstName("Arun");
+		student.setLastName("Kumar");
+		student.setRegisterNumber(2);
+		student.setBranch("EEE");
+		student.setGender("Male");
+		student.setCollege("KSRIET");
+		System.out.println("My details \nName:"+student.getFirstName()+" "+student.getLastName()+"\nRegister Number:"+student.getRegisterNumber()+"\nGender:"+student.getGender()+"\nBranch:"+student.getBranch()+"\nCollege:"+student.getCollege());
+		System.out.println(student);		
+		
+	}
+}

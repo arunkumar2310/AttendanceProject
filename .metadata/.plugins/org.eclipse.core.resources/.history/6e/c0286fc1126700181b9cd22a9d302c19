@@ -1,0 +1,9 @@
+package com.personal;
+
+public class TestProfile {
+	public static void main(String args[]) {
+	IProfile me=new ArunProfile();
+	me.mybasicInfo();
+	me.myHobbies();
+	}
+}

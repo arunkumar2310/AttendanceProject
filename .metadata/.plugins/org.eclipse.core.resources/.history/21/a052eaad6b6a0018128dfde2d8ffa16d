@@ -1,0 +1,14 @@
+package com.polymorphism;
+
+
+ 
+class A 
+{
+int i;
+int j;
+A() 
+{
+i = 1;
+j = 2;
+}
+}

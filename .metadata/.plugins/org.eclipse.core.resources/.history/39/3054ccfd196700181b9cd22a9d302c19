@@ -1,0 +1,16 @@
+package com.personal;
+
+public class ArunProfile implements IProfile {
+	
+	@Override
+	public void mybasicInfo() {
+		System.out.println("FirstName : Arun \nLastName : Kumar\nAge : 21");
+				
+	}
+	@Override
+	public void myHobbies() {
+		System.out.println("My hobbyies are reading and sight seeing");
+				
+	}
+	
+}

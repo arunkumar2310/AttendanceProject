@@ -1,0 +1,51 @@
+package com.student;
+
+public class Details {
+		private String firstName;
+		private String lastName;
+		private int registerNumber;
+		private String gender;
+		private String branch;
+		private String college;
+		
+		public String getFirstName() {
+			return firstName;
+		}
+		public void setFirstName(String firstName) {
+			this.firstName = firstName;
+		}
+		public String getLastName() {
+			return lastName;
+		}
+		public void setLastName(String lastName) {
+			this.lastName = lastName;
+		}
+		public int getRegisterNumber() {
+			return registerNumber;
+		}
+		public void setRegisterNumber(int registerNumber) {
+			this.registerNumber = registerNumber;
+		}
+		public String getGender() {
+			return gender;
+		}
+		public void setGender(String gender) {
+			this.gender = gender;
+		}
+		public String getBranch() {
+			return branch;
+		}
+		public void setBranch(String branch) {
+			this.branch = branch;
+		}
+		public String getCollege() {
+			return college;
+		}
+		public void setCollege(String department) {
+			this.college = department;
+		}
+		
+	
+}
+	
+

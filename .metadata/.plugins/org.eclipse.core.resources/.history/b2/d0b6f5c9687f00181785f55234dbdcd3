@@ -1,0 +1,12 @@
+package com.prp;
+import java.util.List;
+import java.util.*;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		ArrayList1<Employee> Employee=new ArrayList1<Employee>();
+
+	}
+
+}

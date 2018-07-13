@@ -1,0 +1,9 @@
+package com.student;
+
+public class MyDetails {
+	public static void main(String args[])
+	{
+		MyDetails student=new MyDetails();
+		student.setFirstName("Arun");
+	}
+}

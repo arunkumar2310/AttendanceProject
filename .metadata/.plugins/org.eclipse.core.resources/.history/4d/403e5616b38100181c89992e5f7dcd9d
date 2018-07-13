@@ -1,0 +1,9 @@
+package com.jdbc;
+
+public class FirstJDBC1 {
+
+	public FirstJDBC1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

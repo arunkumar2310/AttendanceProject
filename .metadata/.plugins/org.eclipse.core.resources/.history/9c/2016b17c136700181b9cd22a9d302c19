@@ -1,0 +1,9 @@
+package com.personal;
+
+public class TestProfile {
+	public void printProfile(IProfile profile) {
+		profile.mybasicInfo();
+		profile.myHobbies();
+	
+	}
+}

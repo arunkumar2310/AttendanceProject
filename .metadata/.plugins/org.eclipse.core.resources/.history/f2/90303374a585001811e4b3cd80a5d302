@@ -1,0 +1,12 @@
+package edu.ksr.iet.prp.web;
+
+import java.io.IOException;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(name="show details",urlPatterns="/details")
+public class IETShowAttendanceDetails extends HttpServlet {
+   
+	
+}

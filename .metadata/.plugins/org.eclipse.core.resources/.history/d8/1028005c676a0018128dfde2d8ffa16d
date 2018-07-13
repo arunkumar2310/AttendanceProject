@@ -1,0 +1,13 @@
+package com.polymorphism;
+
+
+	class mainclass 
+	{
+	public static void main(String args[]) 
+	{ 
+		A obj = new A();
+		System.out.println(obj);
+	} 
+	}
+
+
