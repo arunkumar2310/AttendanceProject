@@ -1,0 +1,9 @@
+package com.threads;
+
+public class ThreadExample {
+
+	public ThreadExample() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

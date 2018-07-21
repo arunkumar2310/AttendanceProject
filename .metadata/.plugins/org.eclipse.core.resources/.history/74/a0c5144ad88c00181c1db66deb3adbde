@@ -1,0 +1,10 @@
+package com.worksheet_answers;
+
+public class DecreasingSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
