@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\java projects\\javabasics\\.git;
-GitRepositoriesView.GitDirectories.relative=javabasics\\.git;
+GitRepositoriesView.GitDirectories=D\:\\java projects\\javabasics\\.git;D\:\\java projects\\.git;
+GitRepositoriesView.GitDirectories.relative=javabasics\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

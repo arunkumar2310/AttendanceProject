@@ -1,0 +1,33 @@
+<html>
+<body>
+<TABLE width="85%">
+    <TR>
+        <TD width="25%">User Id</TD>
+        <TD width="20%">
+            <input type="text" size="20" id="userid" name="id" onkeyup="validateUserId();">
+        </TD>		
+    </TR>
+</TABLE>
+<h1 id="res" style="background-color:powderblue;">Result :</h1>
+<SCRIPT language="JavaScript">
+    var req = null;
+    function validateUserId() {
+       req = new XMLHttpRequest(); 
+       req.onreadystatechange = processRequest;
+       var idField = document.getElementById("userid");
+        var url = "fir?id=" + escape(idField.value);		
+        req.open("GET", url, true);
+        req.send(null);		
+    }
+
+    function processRequest() {
+        if (req.readyState == 4 && req.status == 200) {
+            var message = req.responseText;
+            //set the receive message
+            document.getElementById("res").innerHTML=message;
+            //console.log(message);
+        }
+    }
+</SCRIPT>
+</body>
+</html>
